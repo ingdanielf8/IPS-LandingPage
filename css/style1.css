@@ -1,0 +1,188 @@
+/* General */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+h2{
+    font-size: 35px;
+}
+.link-text-2:hover{
+    color: #efd758 !important;
+    text-decoration: none !important;
+    text-shadow: 3px 3px 10px black;
+}
+
+/* navbar */
+
+#menu {
+    background-color: #4679AE;
+    z-index: 999;
+}
+.white-text {
+    color: #fff;
+}
+.nav-text {
+    font-size: 13px !important;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+.nav-border:hover {
+    border-color:#fff;
+}
+.navbar-dark .navbar-toggler{
+    border-width: 1px;
+    border-color: #fff !important;
+}
+nav a:hover{
+    font-size: 1.05rem;
+    text-shadow: 3px 3px 10px black;
+    /* color: rgb(194, 195, 194) !important; */
+}
+/* Sticky menu */
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+
+/* Body */
+
+@media screen and (min-width: 574px) {
+    .nav-border {
+        border-left: 2px solid;
+        border-color:#fff;
+    }
+}
+.title {
+    color: #4079af;
+    font-weight: bold;
+}
+.title h3{
+    font-weight: bold;
+}
+.text-white{
+    color:#fff;
+}
+.link-text {
+    text-decoration: underline;
+    color: #4079af;
+}
+.logo-img{
+    max-width: 100%;
+    z-index: 99;
+}
+.background-img{
+    object-fit: fill;
+    min-width: 100%;
+    max-height: 70vh;
+}
+.first-image-title{
+    position:absolute;
+    text-align:center;
+    top:40%;
+    left:5%;
+    width:90%;
+    text-shadow: 3px 3px 10px black;
+}
+.servic-img{
+    max-width: 30%;
+}
+.content-img {
+    max-width: 77% !important;
+}
+.more-img{
+    max-width: 17%;
+}
+@media screen and (max-width: 635px) {
+    .content-img {
+        max-width: 100% !important;
+    }
+    .more-img{
+        max-width: 35%;
+    }
+}
+@media screen and (min-width: 950px) {
+    h2 {
+        font-size: 3rem !important;
+    }
+}
+.company{
+    display: flex !important;
+}
+.lady-img{
+    max-width:83%;
+}
+@media screen and (min-width: 1100px) {
+    .lady-img {
+        max-width: 55% !important;
+    }
+}
+@media screen and (min-width: 1450px) {
+    .lady-img {
+        max-width: 40% !important;
+    }
+}
+.mision-text{
+    color: black;
+    font-size: 11px;
+}
+.company-bg{
+    background: url(fondo-mision.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.headquarters-bg{
+    background: url(fondo-sedes.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.adress-text{
+    font-size: 14px;
+}
+.link-text-2{
+    color: #efd758;
+    font-weight: bolder;
+}
+.adress-img{
+    max-width: 41%;
+}
+
+/* Carousel */
+
+.carousel-indicators{
+    position: inherit !important;
+}
+.carousel-indicators li{
+    background-color: #8c8e8d !important;
+    display:inline-block;
+    border-radius: 10px;
+    width: 10px !important;
+    height: 10px !important;
+}
+.carousel-indicators .active{
+    background-color: #6795ae !important;
+}
+
+/* Footer */
+
+.footer-bg{
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #828181;
+}
+.footer-bg h4{
+    color: #2e2e2e;
+}
+.icons{
+    max-width: 40px;
+}
